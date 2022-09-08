@@ -7,7 +7,7 @@
 body{
     font-family: 'Fredoka', sans-serif;
     /* background-color: rgb(255, 255, 254); */
-    background-color: rgb(255, 255, 254); /* eye safe to do change to rgb(255, 255, 254) */
+    background-color: rgb(30, 30, 30); /* eye safe mode rgb(30, 30, 30) */
     
 }
 /* tools */
@@ -18,7 +18,7 @@ body{
 
 .clearfix::after{
     content: "";
-     display: table;
+    display: table;
     clear: both;
 }
 
@@ -26,7 +26,8 @@ body{
 
 /* main */
 .container{
-    margin: 2% 20%; 
+    margin: 2% 20%;
+    text-align: center;
 }
 
 .container > *{
@@ -52,18 +53,19 @@ li.rows{
 }
 
 li.team-member{
-    
+    display: inline-block;
     width: calc(95% / 3);
     height: 100px;  
     background-color: rgb(15, 14, 23);
     color: white;
     box-shadow: -3px -3px 20px 3px #888888;
+    text-align: left;
 }
-
 
 li.team-member:first-child{
     float: left;
 }
+
 
 li.team-member:last-child{
     float: right;
@@ -72,10 +74,11 @@ li.team-member:last-child{
 .team-member img{
     height: 100%;
     float: left;
-    padding-right: 2rem;
+    margin-right: 1em;
 }
 
 .team-member h2{
+    font-size: 1.2rem;
     padding-top: 10px;
     text-transform: uppercase;
 }
