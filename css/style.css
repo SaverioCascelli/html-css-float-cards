@@ -21,4 +21,8 @@ body{
     color: rgb(229, 49, 112);
 }
 
+.container p{
+    text-align: center;
+}
+
 /* \main */
