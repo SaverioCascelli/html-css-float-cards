@@ -53,17 +53,16 @@ li.rows{
 
 li.team-member{
     float: left;
-    width: calc(100% / 3 - 10px);
-    text-align: left;
+    width: calc(95% / 3);
     height: 100px;  
     background-color: rgb(15, 14, 23);
     color: white;
     box-shadow: -3px -3px 20px 3px #888888;
 }
 
-/* fix later */
+
 li.team-member:nth-child(2){
-    margin-left: 15px;             
+    margin-left: calc(5% / 2);
 }
 
 li.team-member:nth-child(3){
