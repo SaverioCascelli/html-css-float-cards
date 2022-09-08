@@ -32,11 +32,11 @@ body{
     text-align: center;
 }
 
-.container ul li{
+.container ul li.team-member{
+    float: left;
     list-style: none;
     width: 355px;
     height: 100px;
-    
-}
+} 
 
 /* \main */
