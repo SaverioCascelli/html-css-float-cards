@@ -39,7 +39,7 @@ body{
     text-align: center;
 }
 
-.container ul li.rows{
+.container li.rows{
     margin-top: 20px;
 }
 
@@ -47,28 +47,22 @@ body{
     list-style: none;
 }
 
-.container ul li.team-member{
-    float: left;
+li.team-member{
+    display: inline-block;
     width: calc(100% / 3 - 20px);
     text-align: left;
     height: 100px;  
+    
 }
 
-.container ul li.team-member img{
+.team-member img{
     height: 100%;
     float: left;
     padding-right: 2rem;
 }
 
-.container ul li.team-member h2{
+.team-member h2{
     padding-top: 10px;
 }
-
-
-
-
-
-
-
 
 /* \main */
