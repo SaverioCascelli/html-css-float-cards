@@ -10,6 +10,13 @@ body{
     background-color: rgb(30, 30, 30); /* eye safe to do change to rgb(255, 255, 254) */
     
 }
+/* tools */
+.debug{
+    background-color: rgba(255, 0,0, .3);
+    border: 2px solid green;
+
+}
+/* tools */
 
 /* main */
 .container{
@@ -23,6 +30,13 @@ body{
 
 .container p{
     text-align: center;
+}
+
+.container ul li{
+    list-style: none;
+    width: 355px;
+    height: 100px;
+    
 }
 
 /* \main */
