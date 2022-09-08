@@ -52,7 +52,7 @@ li.rows{
 }
 
 li.team-member{
-    float: left;
+    
     width: calc(95% / 3);
     height: 100px;  
     background-color: rgb(15, 14, 23);
@@ -61,11 +61,11 @@ li.team-member{
 }
 
 
-li.team-member:nth-child(2){
-    margin-left: calc(5% / 2);
+li.team-member:first-child{
+    float: left;
 }
 
-li.team-member:nth-child(3){
+li.team-member:last-child{
     float: right;
 }
 
