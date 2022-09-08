@@ -7,7 +7,7 @@
 body{
     font-family: 'Fredoka', sans-serif;
     /* background-color: rgb(255, 255, 254); */
-    background-color: rgb(30, 30, 30); /* eye safe to do change to rgb(255, 255, 254) */
+    background-color: rgb(255, 255, 254); /* eye safe to do change to rgb(255, 255, 254) */
     
 }
 /* tools */
@@ -43,10 +43,12 @@ body{
     text-align: center;
 }
 
-
-
 .container ul li{
     list-style: none;
+}
+
+li.rows{
+    margin-bottom: 2rem;
 }
 
 li.team-member{
@@ -54,6 +56,9 @@ li.team-member{
     width: calc(100% / 3 - 10px);
     text-align: left;
     height: 100px;  
+    background-color: rgb(15, 14, 23);
+    color: white;
+    box-shadow: -3px -3px 20px 3px #888888;
 }
 
 /* fix later */
@@ -73,6 +78,10 @@ li.team-member:nth-child(3){
 
 .team-member h2{
     padding-top: 10px;
+}
+
+.team-member a{
+    color: rgb(0, 117, 211);
 }
 
 /* \main */
